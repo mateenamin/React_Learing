@@ -1,39 +1,39 @@
 import { useState } from 'react';
 
-function State() {
-  const [count, setCount] = useState(0);
-  const [step, setStep]   = useState(1);
+// function State() {
+//   const [count, setCount] = useState(0);
+//   const [step, setStep]   = useState(1);
 
-  return (
-    <div>
-      <h2>State Demo</h2>
+//   return (
+//     <div>
+//       <h2>State Demo</h2>
 
-      <h1 style={{
-        fontSize: '60px',
-        color: count > 0 ? 'green' : count < 0 ? 'red' : 'black'
-      }}>
-        {count}
-      </h1>
+//       <h1 style={{
+//         fontSize: '60px',
+//         color: count > 0 ? 'green' : count < 0 ? 'red' : 'black'
+//       }}>
+//         {count}
+//       </h1>
 
-      <div>
-        <label>Step: </label>
-        <select onChange={(e) => setStep(Number(e.target.value))}>
-          <option value={1}>1</option>
-          <option value={5}>5</option>
-          <option value={10}>10</option>
-        </select>
-      </div>
+//       <div>
+//         <label>Step: </label>
+//         <select onChange={(e) => setStep(Number(e.target.value))}>
+//           <option value={1}>1</option>
+//           <option value={5}>5</option>
+//           <option value={10}>10</option>
+//         </select>
+//       </div>
 
-      <div style={{ marginTop: '10px', display: 'flex', gap: '8px' }}>
-        <button onClick={() => setCount(count + step)}>+ {step}</button>
-        <button onClick={() => setCount(count - step)}>- {step}</button>
-        <button onClick={() => setCount(0)}>Reset</button>
-      </div>
-    </div>
-  );
-}
+//       <div style={{ marginTop: '10px', display: 'flex', gap: '8px' }}>
+//         <button onClick={() => setCount(count + step)}>+ {step}</button>
+//         <button onClick={() => setCount(count - step)}>- {step}</button>
+//         <button onClick={() => setCount(0)}>Reset</button>
+//       </div>
+//     </div>
+//   );
+// }
 
-export default State;
+// export default State;
 
 
 // State — Kya Hai?
@@ -122,7 +122,7 @@ function Counter() {
 // Screen update hui    →  1 dikhne laga
 
 
-function App() {
+function State() {
   const [count, setCount] = useState(0);
   const [name, setName]   = useState('Mateen');
 
@@ -137,6 +137,7 @@ function App() {
   );
 }
 
+export default State;
 // Button dabao  →  console mein "App render hua!" dikhega
 // Sirf count wali h1 update hogi — h2 same rahegi
 

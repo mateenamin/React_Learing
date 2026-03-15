@@ -2,6 +2,9 @@ import JSX        from './components/JSX';
 import Components from './components/Components';
 import State      from './components/State';
 import Events     from './components/Events';
+import Composition           from './components/Composition';
+import Children              from './components/Children';
+import ControlledUncontrolled from './components/ControlledUncontrolled';
 
 function App() {
   return (
@@ -16,6 +19,14 @@ function App() {
       <State />
       <hr />
       <Events />
+
+      <h1>Rendering & Patterns</h1>
+      <hr />
+      <Composition />
+      <hr />
+      <Children />
+      <hr />
+      <ControlledUncontrolled />
     </div>
   );
 }
