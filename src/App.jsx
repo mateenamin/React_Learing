@@ -12,6 +12,14 @@ import UseEffect  from './hooks/UseEffect';
 import UseRef     from './hooks/UseRef';
 import UseContext from './hooks/UseContext';
 import UseMemo    from './hooks/UseMemo';
+
+import UseActionState from './hooks/UseActionState';
+import UseFormStatus  from './hooks/UseFormStatus';
+import UseOptimistic  from './hooks/UseOptimistic';
+import UseAPI         from './hooks/UseAPI';
+
+
+
 function App() {
   return (
     <div style={{ padding: '20px' }}>
@@ -33,6 +41,7 @@ function App() {
       <Children />
       <hr />
       <ControlledUncontrolled />
+
       <h1>Core Hooks</h1>
       <hr />
       <UseState />
@@ -44,6 +53,16 @@ function App() {
       <UseContext />
       <hr />
       <UseMemo />
+
+      <h1>React 19 New Features</h1>
+      <hr />
+      <UseActionState />
+      <hr />
+      <UseFormStatus />
+      <hr />
+      <UseOptimistic />
+      <hr />
+      <UseAPI />
     </div>
   );
 }
