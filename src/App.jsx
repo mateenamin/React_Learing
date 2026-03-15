@@ -6,6 +6,12 @@ import Composition           from './components/Composition';
 import Children              from './components/Children';
 import ControlledUncontrolled from './components/ControlledUncontrolled';
 
+
+import UseState   from './hooks/UseState';
+import UseEffect  from './hooks/UseEffect';
+import UseRef     from './hooks/UseRef';
+import UseContext from './hooks/UseContext';
+import UseMemo    from './hooks/UseMemo';
 function App() {
   return (
     <div style={{ padding: '20px' }}>
@@ -27,6 +33,17 @@ function App() {
       <Children />
       <hr />
       <ControlledUncontrolled />
+      <h1>Core Hooks</h1>
+      <hr />
+      <UseState />
+      <hr />
+      <UseEffect />
+      <hr />
+      <UseRef />
+      <hr />
+      <UseContext />
+      <hr />
+      <UseMemo />
     </div>
   );
 }
