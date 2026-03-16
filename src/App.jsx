@@ -134,7 +134,7 @@ import CustomHooksPage     from './pages/CustomHooksPage';
 import React19Page         from './pages/React19Page';
 import RouterPage          from './pages/RouterPage';
 import NotFound            from './pages/NotFound';
-
+import DataFetchingPage from './pages/DataFetchingPage';
 function App() {
   const links = [
     { to: '/',            label: '🏠 Home'          },
@@ -144,6 +144,7 @@ function App() {
     { to: '/custom-hooks',label: '⚙️ Custom Hooks'  },
     { to: '/react19',     label: '🆕 React 19'      },
     { to: '/router',      label: '🔗 Router'        },
+    { to: '/data-fetching', label: '🌐 Data Fetching' },
   ];
 
   return (
@@ -191,7 +192,9 @@ function App() {
         <Route path="/custom-hooks" element={<CustomHooksPage />}  />
         <Route path="/react19"      element={<React19Page />}      />
         <Route path="/router"       element={<RouterPage />}       />
+        <Route path="/data-fetching" element={<DataFetchingPage />} />
         <Route path="*"             element={<NotFound />}         />
+
       </Routes>
 
     </div>
