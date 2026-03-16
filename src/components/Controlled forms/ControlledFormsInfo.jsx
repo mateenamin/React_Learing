@@ -1,4 +1,20 @@
 
+// | | Controlled | React Hook Form | RHF + Zod |
+// |---|---|---|---|
+// | **Code** | Zyada | Kam | Sabse clean |
+// | **Validation** | Khud likhna | Built-in | Schema based |
+// | **Performance** | Re-render zyada | Better | Best |
+// | **Kab use** | Simple forms | Most forms | Complex forms |
+
+
+
+
+
+
+
+
+
+
 // Concept 1 — Controlled Form
 // jsx// React state se value control hoti hai
 // const [name, setName] = useState('');

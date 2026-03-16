@@ -1,3 +1,26 @@
+
+
+// | Concept | Kya Karta Hai | Kab Use |
+// |---|---|---|
+// | `Portal` | DOM mein aur jagah render | Modal, Tooltip |
+// | `Error Boundary` | Crash pakdo — fallback dikhao | Har component |
+// | `Suspense` | Load hone tak fallback | Lazy + React Query |
+// | `Lazy` | Zaroorat pe load | Heavy components |
+// | `Code Splitting` | Bundle chhote pieces | Large apps |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Portals — Kya Hai?
 // Simple matlab: Component ko DOM mein kisi aur jagah render karo
 // Normal rendering:
