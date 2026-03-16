@@ -136,6 +136,8 @@ import RouterPage          from './pages/RouterPage';
 import NotFound            from './pages/NotFound';
 import DataFetchingPage from './pages/DataFetchingPage';
 import StateManagementPage from './pages/StateManagementPage';
+import FormsPage from './pages/FormsPage';
+import AdvancedPage from './pages/AdvancedPage';
 function App() {
   const links = [
     { to: '/',            label: '🏠 Home'          },
@@ -147,6 +149,8 @@ function App() {
     { to: '/router',      label: '🔗 Router'        },
     { to: '/data-fetching', label: '🌐 Data Fetching' },
     { to: '/state', label: '🗄️ State' },
+    { to: '/forms', label: '📋 Forms' },
+    { to: '/advanced', label: '⚡ Advanced' },
   ];
 
   return (
@@ -197,6 +201,8 @@ function App() {
         <Route path="/data-fetching" element={<DataFetchingPage />} />
         <Route path="*"             element={<NotFound />}         />
         <Route path="/state" element={<StateManagementPage />} />
+        <Route path="/forms" element={<FormsPage />} />
+        <Route path="/advanced" element={<AdvancedPage />} />
 
       </Routes>
 

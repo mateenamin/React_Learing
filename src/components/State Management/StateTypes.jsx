@@ -1,7 +1,11 @@
 
 
-
-
+// | | Context API | Redux Toolkit | Zustand |
+// |---|---|---|---|
+// | **Install** | Built-in | npm install | npm install |
+// | **Code** | Thoda | Zyada | Kam ✅ |
+// | **Kab use** | Small app | Large app | Medium app |
+// | **DevTools** | ❌ | ✅ | ✅ |
 
 
 
