@@ -135,6 +135,7 @@ import React19Page         from './pages/React19Page';
 import RouterPage          from './pages/RouterPage';
 import NotFound            from './pages/NotFound';
 import DataFetchingPage from './pages/DataFetchingPage';
+import StateManagementPage from './pages/StateManagementPage';
 function App() {
   const links = [
     { to: '/',            label: '🏠 Home'          },
@@ -145,6 +146,7 @@ function App() {
     { to: '/react19',     label: '🆕 React 19'      },
     { to: '/router',      label: '🔗 Router'        },
     { to: '/data-fetching', label: '🌐 Data Fetching' },
+    { to: '/state', label: '🗄️ State' },
   ];
 
   return (
@@ -194,6 +196,7 @@ function App() {
         <Route path="/router"       element={<RouterPage />}       />
         <Route path="/data-fetching" element={<DataFetchingPage />} />
         <Route path="*"             element={<NotFound />}         />
+        <Route path="/state" element={<StateManagementPage />} />
 
       </Routes>
 
