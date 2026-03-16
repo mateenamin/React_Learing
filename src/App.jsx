@@ -139,6 +139,7 @@ import StateManagementPage from './pages/StateManagementPage';
 import FormsPage from './pages/FormsPage';
 import AdvancedPage from './pages/AdvancedPage';
 import PerformancePage from './pages/PerformancePage';
+import DevToolsPage from './pages/DevToolsPage';
 function App() {
   const links = [
     { to: '/',            label: '🏠 Home'          },
@@ -153,6 +154,7 @@ function App() {
     { to: '/forms', label: '📋 Forms' },
     { to: '/advanced', label: '⚡ Advanced' },
     { to: '/performance', label: '⚡ Performance' },
+    { to: '/devtools', label: '🔧 DevTools' },
   ];
 
   return (
@@ -206,6 +208,7 @@ function App() {
         <Route path="/forms" element={<FormsPage />} />
         <Route path="/advanced" element={<AdvancedPage />} />
         <Route path="/performance" element={<PerformancePage />} />
+        <Route path="/devtools" element={<DevToolsPage />} />
 
       </Routes>
 

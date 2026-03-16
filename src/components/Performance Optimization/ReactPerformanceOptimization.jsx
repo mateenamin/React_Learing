@@ -1,3 +1,27 @@
+
+
+
+// | Tool | Kya Karta Hai | Kab Use |
+// |---|---|---|
+// | `React.memo` | Component re-render rokna | Props same rahe |
+// | `useMemo` | Value cache karo | Heavy calculation |
+// | `useCallback` | Function cache karo | Memo child ko pass |
+// | `Virtualization` | Long list fast | 1000+ items |
+// | `Bundle Opt` | Size chhoti karo | Production |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Performance Optimization Kya Hai?
 // Simple matlab: App ko fast banao — unnecessary kaam band karo
 // Problem:
