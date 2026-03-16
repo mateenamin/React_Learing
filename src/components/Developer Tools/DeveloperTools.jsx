@@ -1,3 +1,16 @@
+
+
+// | Tool | Kya Karta Hai | Kahan |
+// |---|---|---|
+// | `Components Tab` | State/Props live dekho | F12 → ⚛️ |
+// | `Profiler Tab` | Render time measure | F12 → ⚛️ |
+// | `console.log` | Quick value check | Code mein |
+// | `debugger` | Code rok ke step | F12 → Sources |
+// | `try/catch` | Error pakdo | Code mein |
+
+
+
+
 // Developer Tools Kya Hain?
 // Simple matlab: App ke andar dekho — kya ho raha hai — bugs fix karo — performance check karo
 // Bina DevTools:
